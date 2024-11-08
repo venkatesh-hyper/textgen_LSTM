@@ -1,4 +1,6 @@
-# ABSTRACT
+# Text Generation Using LSTM Networks: A Machine Learning Approach to Sequence-Based Languag Modeling
+
+### ABSTRACT
 This project focuses on developing a text
 generation model using Long Short-Term Memory
 (LSTM) networks, which are particularly effective for
@@ -21,7 +23,7 @@ and chatbots. Future work could involve fine-tuning the
 model on specialized datasets to improve its
 performance in specific domains.<br>
 
-# 1. Introduction
+### 1. Introduction
 
 *1.1 Problem Definition*
 <br>
@@ -46,7 +48,7 @@ data. This approach is well-suited for text generation tasks
 because LSTM networks are capable of capturing long-
 range dependencies between words in a sequence.<br>
 ￼ 
-# MODEL ARCHITECTURE
+### MODEL ARCHITECTURE
 
 **_2.2 Model Architecture__**
 <br>
@@ -81,6 +83,7 @@ for multi-class classification problems, where the goal is to predict the
 probability distribution of the next word from a set of possible words.
 Categorical cross-entropy helps minimize the difference between the predicted
 and actual word distributions.<br>
+
 **2.3 Optimizer**<br>
 The optimizer used is Adam due to its efficiency and ability to handle sparse
 gradients and adaptive learning rates. Adam is well-suited for training deep
@@ -90,6 +93,7 @@ descent methods.<br>
 may be adjusted based on model performance.<br>
 • Other Parameters: Beta1 (0.9) and Beta2 (0.999) are the momentum
 parameters for the Adam optimizer.<br>
+
 **2.4 Training and Testing Results**<br>
 The model was trained on a large text corpus, and the following metrics were
 tracked:<br>
@@ -100,6 +104,13 @@ Performance results were visualized, showing the loss and accuracy trends
 during training and the quality of text generated after training.<br>
 **Training Time: 2 hours
 <br>Total Epochs: 60**<br>
+![alt](visulaisation/v1.5/accuracy.png)
+![alt](visulaisation/v1.5/loss.png)
+
+**FINE TUNING**
+![alt](visulaisation/v2/mod_acc.png)
+![alt](visulaisation/v2/mod_los.png)
+
 
 **3. SYSTEM SPECIFICATION**<br>
 **_3.1 Hardware Specifications_**<br>
