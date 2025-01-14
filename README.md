@@ -1,4 +1,4 @@
-# Text Generation Using LSTM Networks: A Machine Learning Approach to Sequence-Based Languag Modeling
+# Text Generation Using LSTM Networks: A Machine Learning Approach to Sequence-Based Language Modeling (NLP)
 
 ### ABSTRACT
 This project focuses on developing a text
